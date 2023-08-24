@@ -700,7 +700,6 @@ class Script(scripts.Script):
             "txt2img_height",
             "txt2img_batch_count",
             "txt2img_batch_size",
-            "txt2img_restore_faces",
             "txt2img_enable_hr",
             "txt2img_hr_scale",
             "txt2img_hr_upscaler",
@@ -727,7 +726,6 @@ class Script(scripts.Script):
             "img2img_batch_size",
             "img2img_cfg_scale",
             "img2img_denoising_strength",
-            "img2img_restore_faces",
 
             # IDs below are only in Vlad's SD.Next UI (they must also be added to self.img2img_optional_ids):
             "img2img_show_seed",
